@@ -124,6 +124,7 @@ int main() {
 
     char cmd;
     while (1) {
+        cout << "입력 예시: cmd 0 0 0" << endl << "입력: ";
         cin >> cmd;
         system("cls");
         if (cmd == 'q') break;
